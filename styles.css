@@ -1,1 +1,157 @@
-s
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap');
+
+/* General body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  color: #212529;
+  margin: 0;
+  padding-top: 70px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #001F54;
+}
+
+.nav-link, .navbar-brand {
+  color: white !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #e0f7ff, #ffffff);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #001F54;
+  font-size: 3rem;
+}
+
+/* Section padding */
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.section-padding h2 {
+  border-bottom: 3px solid #007B5E;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+}
+
+/* Card styling */
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #001F54;
+}
+
+/* Button styles */
+.btn-success {
+  background-color: #007B5E;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #005F46;
+}
+
+/* Footer */
+footer {
+  background-color: #001F54;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Coming Soon page styles */
+.coming-soon-body {
+  background-color: #EEF6FB;
+  text-align: center;
+  padding: 250px;
+  font-family: 'Poppins', sans-serif;
+  color: #212529;
+}
+
+@media (max-width: 768px) {
+  .coming-soon-body {
+    padding: 100px 20px;
+  }
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #001F54;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  display: none;
+  z-index: 999;
+}
+
+.back-to-top:hover {
+  background-color: #003b8b;
+}
